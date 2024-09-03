@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>M. Rachman Gumilang</h1>
+        <p>
+          Creative Web Developer, Designer, Videografer, Photografer, Video
+          editor, Photo editor, Automotive
+        </p>
+      </div>
+    </header>
+    <section id="about" class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="asset/profile/profile.png" alt="Profile Picture" />
+        <p>
+          Saya, M. Rachman Gumilang, adalah seorang web developer berusia 17
+          tahun yang menguasai HTML, CSS, dan JavaScript. Sebagai pelajar SMA
+          jurusan IPA, saya telah mengembangkan berbagai keterampilan secara
+          otodidak, menggabungkan passion saya di bidang teknologi, multimedia,
+          dan otomotif. Selain keahlian dalam pengembangan web, saya juga aktif
+          di bidang multimedia. Saya bekerja sebagai video editor, photo editor,
+          dan bertanggung jawab atas dokumentasi sekolah. Keahlian saya juga
+          mencakup fotografi acara otomotif dan videografi untuk berbagai acara
+          sekolah maupun acara lainnya. Hobi saya di bidang otomotif telah
+          mengasah kemampuan saya dalam memodifikasi kendaraan, memahami cara
+          kerja mesin motor, serta menganalisis dan memperbaiki kerusakan.
+          Pengalaman ini diperkuat dengan pekerjaan sampingan saya di bengkel
+          motor, di mana saya dapat menerapkan dan mengembangkan pengetahuan
+          praktis saya. Kreativitas saya juga terwujud dalam desain grafis,
+          sebuah hobi yang melengkapi keterampilan multimedia saya. Sebagai
+          content creator di TikTok, saya telah berhasil membangun audiens
+          dengan lebih dari 800 pengikut, mencapai 500 ribu lebih penonton pada
+          konten terpopuler saya, dan mengumpulkan lebih dari 40 ribu likes.
+          Kombinasi unik dari keterampilan teknis, kreativitas, dan passion
+          dalam berbagai bidang membuat saya selalu bersemangat untuk menghadapi
+          tantangan baru dan terus berkembang dalam dunia digital dan kreatif.
+          Saya percaya bahwa keberagaman minat dan kemampuan saya akan menjadi
+          aset berharga dalam menghadapi proyek-proyek di masa depan.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <h3>HTML</h3>
+          <p>Expertise in HTML5.</p>
+        </div>
+        <div class="skill">
+          <h3>CSS</h3>
+          <p>Proficient in CSS3 and responsive design.</p>
+        </div>
+        <div class="skill">
+          <h3>JavaScript</h3>
+          <p>Strong understanding of JavaScript and frameworks.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <img src="asset/project/GalaksiWebsite.png" alt="Project 1" />
+          <h3>Galaksi Website</h3>
+          <p>
+            Website Ekskul Galaksi menyediakan semua informasi penting di satu
+            tempat. Di dalamnya, Anda bisa menemukan profil ekskul, kontak
+            langsung dengan pengurus, serta form pendaftaran yang bisa diisi
+            tanpa perlu berpindah halaman. Selain itu, ada galeri dokumentasi
+            yang menampilkan berbagai hasil karya dan kegiatan ekskul,
+            memberikan gambaran nyata tentang apa yang dilakukan di Galaksi.
+            Semua fitur ini dirancang untuk memudahkan akses dan memberikan
+            pengalaman yang menyeluruh bagi pengunjung.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea
+          name="message"
+          rows="5"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div id="loading-screen" class="loading-screen">
+        <div class="spinner"></div>
+      </div>
+      <p id="status" class="status"></p>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 M. Rachman Gumilang. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
